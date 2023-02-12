@@ -6,13 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img src={Eileen} className="Eileen" alt="Eileen" />
-        </header>
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Eileen Finn</footer>
+        <footer className="App-footer">Coded by Eileen Finn <img src={Eileen} className="Eileen" alt="Eileen" /></footer>
       </div>
     </div >
   );

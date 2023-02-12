@@ -8,5 +8,7 @@
   font-size: 30px;
   border: 2px solid #ff9500;
   border-radius: 3px;
-  margin: 30px auto;
+  margin-top: 90px;
+  margin: 200px 0px 10px;
+  filter: brightness(100%);
 }

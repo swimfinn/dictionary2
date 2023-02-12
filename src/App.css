@@ -4,7 +4,7 @@ body {
     url("/src/images/body.jpg");
   background-size: cover;
   background-blend-mode: darken;
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 
 footer {
@@ -20,7 +20,7 @@ footer {
 }
 
 .Eileen {
-  height: 20vmin;
+  height: 20px;
   pointer-events: none;
   margin: 30px auto;
   border-radius: 50%;
