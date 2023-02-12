@@ -1,0 +1,12 @@
+.Search {
+  background: -webkit-linear-gradient(#e700de, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-weight: bolder;
+  font-size: 30px;
+  border: 2px solid #ff9500;
+  border-radius: 3px;
+  margin: 30px auto;
+}

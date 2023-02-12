@@ -1,29 +1,38 @@
 body {
   background-image: url("/src/images/body.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/src/images/body.jpg");
   background-size: cover;
+  background-blend-mode: darken;
+  filter: brightness(150%);
+}
+
+footer {
+  background: -webkit-linear-gradient(#e700de, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
 }
 
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
+.Eileen {
+  height: 20vmin;
   pointer-events: none;
-}
-
-.App-footer {
-  text-align: center;
-  margin: 30px 0;
+  margin: 30px auto;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Eileen {
+    animation: Eileen-spin infinite 20s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes Eileen-spin {
   from {
     transform: rotate(0deg);
   }
