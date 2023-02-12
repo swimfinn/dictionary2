@@ -4,7 +4,7 @@ body {
     url("/src/images/body.jpg");
   background-size: cover;
   background-blend-mode: darken;
-  filter: brightness(150%);
+  filter: brightness(70%);
 }
 
 footer {
