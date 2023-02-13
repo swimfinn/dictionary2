@@ -12,6 +12,8 @@ export default function Dictionary() {
     function search(event) {
         event.preventDefault();
 
+        //documentation: https://dictionaryapi.com/products/api-learners-dictionary
+
         let apiKey = `09604979-6b69-4bfc-9a27-677673bdd2ab`;
         let apiUrl = `https://www.dictionaryapi.com/api/v3/references/learners/json/${keyword}?key=${apiKey}`;
         console.log(apiUrl);
