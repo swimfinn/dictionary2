@@ -13,7 +13,7 @@ export default function Dictionary() {
         event.preventDefault();
 
         let apiKey = `09604979-6b69-4bfc-9a27-677673bdd2ab`;
-        let apiUrl = `https://www.dictionaryapi.com/api/v3/references/learners/json/apple?key=${apiKey}/${keyword}`;
+        let apiUrl = `https://www.dictionaryapi.com/api/v3/references/learners/json/${keyword}?key=${apiKey}`;
         console.log(apiUrl);
         axios.get(apiUrl).then(handleResponse);
     }
