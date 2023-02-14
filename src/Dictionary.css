@@ -1,15 +1,47 @@
+.Results,
 .Search {
   background: -webkit-linear-gradient(#e700de, #ff9500);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.Search {
   background-color: grey;
   background-blend-mode: multiply;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 24px;
   border: 2px solid #ff9500;
   border-radius: 3px;
   margin-top: 90px;
   margin: 200px 0px 10px;
   filter: brightness(100%);
   font-style: italic;
+}
+
+.Word {
+  padding-top: 30px;
+  text-decoration: underline #ff9500;
+}
+
+h1 .Phon {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.Def {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Ex {
+  font-style: italic;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 18px;
 }
